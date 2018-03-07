@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel='stylesheet' href='css.css'>
+  </head>
+
+<body>
+  <div class="logo">
+    <img src="logo2.png">
+  </div>
+
+  <div >
+    <ul>
+      <li class="menu"><a href="Home.html">HOME</a></li>
+      <li class="menu"><a href ="Facility.html">FACILITY</a></li>
+      <li class="menu"><a href="Booking.html">BOOK ROOM</a></li>
+    </ul>
+  </div>
+  <hr>
+
+  <div>
+    <table id="table">
+      <form action="end.html" method="post">
+      <tr>
+        <th colspan="2">BOOK ROOM</th>
+      </tr>
+      <tr>
+        <td>Name</td>
+        <td><input type="text" id ="name" required/></td>
+      </tr>
+      <tr>
+        <td>Email</td>
+        <td><input type="email" name ="email" placeholder="example@gmail.com" required></td>
+      </tr>
+      <tr>
+        <td>Phone</td>
+        <td><input type="number" name ="phone" pattern="[0-9]" required/></td>
+      </tr>
+      <tr>
+        <td>Stay In Date</td>
+        <td><input type="date" name ="stayindate"/></td>
+      </tr>
+      <tr>
+        <td>Length of Stay (days)</td>
+        <td><input type="number" name ="days" min="1" required/></td>
+      </tr>
+      <tr>
+        <td>Room Type</td>
+        <td><select name="type">
+          <option>Select One</option>
+          <option>Deluxe Room - $274</option>
+          <option>Deluxe Pool Villa - $438</option>
+          <option>1 Bedroom Pool Villa - $525</option>
+          <option>2 Bedroom Pool Villa - $635</option>
+        </td>
+      </tr>
+      <tr>
+        <td>Additional Charge</td>
+        <td><input type="checkbox" name="op" value="extra">Extra Bed - 80$<br>
+          <input type="checkbox" name="op" value="shuttle">Airport Shuttle - $40<br>
+          <input type="checkbox" name="op" value="tour">Ubud Tour 1D - $100<br>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2"><input id ="submit" type="submit"></td>
+      </tr>
+
+</form>
+    </table>
+  </div>
+
+<div id="footer">
+  <p>© 2017 Pramana Experience - All Rights Reserved.</p>
+</div>
+
+</body>
+
+</html>

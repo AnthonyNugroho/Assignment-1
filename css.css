@@ -1,0 +1,50 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  text-align: center;
+}
+
+li.menu{
+  display: inline;
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+}
+a:visited{
+  color: white;
+}
+
+
+#footer{
+  text-align: center;
+}
+
+hr{
+  margin-top: 50;
+  color: white;
+
+}
+
+#table{
+  text-align: center;
+  border: solid 1pt white;
+  border-collapse: collapse;
+  margin: auto;
+  width: 400;
+  height: 500;
+}
+
+td{
+  border: solid 1pt white;
+}
+
+#Saved{
+  text-align: center;
+}
